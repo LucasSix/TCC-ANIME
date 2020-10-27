@@ -1,0 +1,28 @@
+
+.master{
+    margin: auto;
+    
+    
+    width: 205vh;
+    height: 100vh;
+    flex-direction: 100px;
+}
+
+.animeimg{
+    height: auto;
+}
+
+.index{
+    display: flex;
+    background-color: teal;
+    width: 200vh;
+    margin: 5px;
+}
+
+
+
+.Login{
+    margin: 10px;
+    margin-left: 10px;
+} 
+
