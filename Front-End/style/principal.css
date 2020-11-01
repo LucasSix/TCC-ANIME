@@ -1,11 +1,11 @@
 
 .master{
-    margin: auto;
-    
-    
-    width: 205vh;
-    height: 100vh;
-    flex-direction: 100px;
+    margin: 0px;
+    display: flex;
+    background-color: whitesmoke;
+    width: auto;
+    height: auto;
+    flex-direction: column;
 }
 
 .animeimg{
@@ -13,16 +13,296 @@
 }
 
 .index{
-    display: flex;
-    background-color: teal;
-    width: 200vh;
+    
+    background-image: url(../imagens/CAPA.png);
+    
+    background-size: 100%;
+    
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 203vh;
+    height: 99vh;
     margin: 5px;
+}
+
+.master .index img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.master .index .logo img{
+    height: 25vh;
+    width: 50vh;
+    margin: 10px;
+
 }
 
 
 
 .Login{
-    margin: 10px;
-    margin-left: 10px;
-} 
+    margin-top: -50vh;
+    margin-left: 85%;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
 
+    
+    
+
+    font-style: normal;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+.master .index .Login h5{
+    font-size: 20px;
+    font-weight: 60%;
+    margin-left: 18px;
+    margin-top: 5px;
+
+    color: #fff;
+    
+}
+
+
+
+.Entrar{
+   
+    margin-left: 42%;
+    margin-top: 155px;
+    height: 40px;
+    width: 220px;
+    border-radius: 20px;
+    background-color: rgb(170, 116, 16);
+}
+
+
+.master .index .Entrar h5{
+    font-size: 30px;
+    font-weight: 50%;
+    margin-left: 28%;
+    color: black;
+    
+    
+}
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.Entrar:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50px;
+    width: 100px;
+    border-color: #fff;
+}
+
+.master .index .btn h5{
+    color: white;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: rgb(160, 115, 17);
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.master .index .btn {
+    margin-top: -95vh;
+    margin-left: 90%;
+}
+
+
+
+
+
+
+
+
+
+.debaixo{
+    display: flex;
+    justify-content: center;
+    width: 203vh;
+    height: 50vh;
+    margin: 5px;
+    
+}
+
+.debaixo div{
+    width: 100vh;
+    height: 50vh;
+    background-color: black;
+
+}
+
+
+.comprar{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: row;
+    width: 203vh;
+    height: 90vh;
+    margin: 10px;
+}
+
+
+.master .comprar h3{
+    color: rgb(14, 125, 199);
+    margin-left: 10vh;
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode',
+      Geneva, Verdana, sans-serif;
+
+}
+
+
+.master .comprar p1{
+    color: rgb(0, 0, 0);
+    margin-left: 220px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande',
+     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.master .comprar p2{
+    color: rgb(0, 0, 0);
+    margin-left: 180px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande',
+     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.master .comprar p3{
+    color: rgb(0, 0, 0);
+    margin-left: 200px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande',
+     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+ .master .comprar button{
+    
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    margin-left: 10vh;
+    margin-top: 70vh;
+    background-color: rgb(160, 115, 17);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    
+
+}
+
+
+.master .comprar .cards{
+    background-image: url(../imagens/never.jpg);
+   width: 150px;
+   height: 200px;
+   margin-top: 230px;
+   margin-left: -20vh;
+   box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+
+}
+
+.master .comprar .cards2{
+    background-image: url(../imagens/monster.jpg);
+    background-size: 100%;
+    width: 150px;
+    
+    height: 200px;
+    margin-top: 228px;
+    margin-left: -300px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    
+}
+
+.master .comprar .cards3{
+    background-image: url(../imagens/vinland.jpg);
+    width: 150px;
+    height: 200px;
+    margin-top: 228px;
+    margin-left: 130px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    
+}
+
+
+
+.cabeca{
+    margin: 1px;
+    height: 50vh;
+    background-color: rgb(134, 134, 156);
+    display: flex;
+    
+}
+
+.cabeca div{
+    margin: 50px;
+    margin-left: 10px;
+}
