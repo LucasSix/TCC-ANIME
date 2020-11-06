@@ -14,7 +14,7 @@
 
 .index{
     
-    background-image: url(../imagens/CAPA.png);
+    background-image: url(../imagens/logo/CAPA.png);
     
     background-size: 100%;
     
@@ -261,7 +261,7 @@
 
 
 .master .comprar .cards{
-    background-image: url(../imagens/never.jpg);
+    background-image: url(../imagens/capas/never.jpg);
    width: 150px;
    height: 200px;
    margin-top: 230px;
@@ -271,7 +271,7 @@
 }
 
 .master .comprar .cards2{
-    background-image: url(../imagens/monster.jpg);
+    background-image: url(../imagens/capas/monster.jpg);
     background-size: 100%;
     width: 150px;
     
@@ -283,7 +283,7 @@
 }
 
 .master .comprar .cards3{
-    background-image: url(../imagens/vinland.jpg);
+    background-image: url(../imagens/capas/vinland.jpg);
     width: 150px;
     height: 200px;
     margin-top: 228px;
@@ -296,13 +296,23 @@
 
 .cabeca{
     margin: 1px;
-    height: 50vh;
-    background-color: rgb(134, 134, 156);
-    display: flex;
+    height: 35vh;
+    background-color: rgb(248, 248, 248);
+    display: flex;                                                                                                                                                                                      
     
 }
 
 .cabeca div{
-    margin: 50px;
+    margin: 1px;
+    margin-left: 30vh;
+    
+}
+
+.master .cabeca ossas{
+
+    margin: 10px;
+}
+
+.master .logoo{
     margin-left: 10px;
 }

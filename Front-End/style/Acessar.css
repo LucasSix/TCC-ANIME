@@ -1,0 +1,270 @@
+.master{
+    margin: 1px;
+    background-color: rgb(207, 212, 221);
+    height: 100vh;
+    flex-direction: column;
+    margin: 0px;
+    
+    
+}
+
+.principal{
+    
+    background-color: #BB8B10;
+    height: 20vh;
+    display: flex;
+
+}
+
+
+.master .principal .logo{
+    margin: 10px;
+    height: 10px;
+}
+
+
+.master .principal .inicio busca{
+    height: 10px;
+    margin-top: 40px;
+    
+}
+
+.busca {
+   margin-left: 50vh;
+    width: 300px;
+    margin-top: 35px;
+    border: none;
+    box-shadow: yellow;
+    
+    
+ }
+ .busca:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.home{
+    margin-top: 80px;
+    margin-left: -100vh;
+    
+}
+
+.home:hover {
+    transform: translateY(-2px);
+    
+    
+}
+
+
+.carrinho{
+    margin-left: 105vh;
+    margin-top: 35px;
+}
+
+
+.carrinho:hover {
+    transform: translateY(-2px);
+}
+
+.entre{
+    margin-left: 50px;
+    margin-top: 35px ;
+}
+
+.entre:hover {
+    transform: translateY(-2px);
+}
+
+
+.carrosel{
+    display: flex;
+    width: auto;
+    height: 60vh;
+
+    background-color: rgb(255, 255, 255);
+}
+
+
+.box{
+    width: 100vh;
+    height: 56vh;
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+.box div{
+    width: 650px;
+}
+
+
+
+.assistir{
+    margin-top: 30px;
+    width: auto;
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    display: flex;
+    
+    
+}
+
+.assistir .caixas1{
+    width: 300px;
+    height: 300px;
+    background-color: #EFEFEF;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.679);
+    font-family: 'Lucida Sans',
+    'Lucida Sans Regular', 
+    'Lucida Grande',
+    'Lucida Sans Unicode',
+     Geneva, Verdana,
+     sans-serif;
+    margin-left: 80px;
+    margin-top:20px ;
+    border-radius: 10px;
+}
+
+.caixas2{
+    width: 300px;
+    height: 300px;
+    background-color: #EFEFEF;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.679);
+    font-family: 'Lucida Sans',
+    'Lucida Sans Regular', 
+    'Lucida Grande',
+    'Lucida Sans Unicode',
+     Geneva, Verdana,
+     sans-serif;
+    margin-left: 10%;
+    margin-top:20px ;
+    border-radius: 10px;
+    
+}
+
+.caixas3{
+    width: 300px;
+    height: 300px;
+    font-family: 'Lucida Sans',
+    'Lucida Sans Regular', 
+    'Lucida Grande',
+    'Lucida Sans Unicode',
+     Geneva, Verdana,
+     sans-serif;
+     color: black;
+    background-color: #EFEFEF;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.679);
+
+    margin-left: 10%;
+    margin-top:20px ;
+    border-radius: 10px;
+}
+
+.caixas1 .imagem{
+    margin-top: 10px;
+    margin-left: 15px;
+    
+}
+
+
+.caixas2 .imagem2{
+    margin-top: 10px;
+    margin-left: 13px;
+}
+
+
+.caixas3 .imagem3{
+    margin-top: 10px;
+    margin-left: 13px;
+}
+
+
+.caixas1 p{
+    margin-left: 120px;
+}
+
+.caixas2 p{
+    margin-left: 120px;
+
+}
+.caixas3 p{
+    margin-left: 120px;
+
+}
+
+
+.caixas1 button{
+ 
+    margin-left: 16px;
+
+    position: absolute;
+    width: 258px;
+    height: 64px;
+
+   background: #AE7D00;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 5px;
+
+   border: none;
+}
+
+.caixas2 button{
+ 
+    margin-left: 16px;
+
+    position: absolute;
+    width: 258px;
+    height: 64px;
+
+   background: #AE7D00;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 5px;
+   border: none;
+}
+
+
+.caixas3 button{
+ 
+    margin-left: 16px;
+
+    position: absolute;
+    width: 258px;
+    height: 64px;
+
+   background: #AE7D00;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 5px;
+   border: none;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cabeca{
+    
+    margin-top: 100px;
+    height: 35vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;                                                                                                                                                                                      
+    
+}
+
+.cabeca div{
+    margin: 1px;
+    margin-left: 30vh;
+    
+}
+
+.master .cabeca ossas{
+
+    margin: 10px;
+}
+
+.master .logoo{
+    margin-left: 10px;
+}
